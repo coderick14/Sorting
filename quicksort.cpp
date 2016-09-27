@@ -43,6 +43,7 @@ int main()
 	quicksort(a,0,n-1);
 	for(i=0;i<n;i++)
 	    cout<<a[i]<<" ";
+    cout<<endl;
 	delete []a;   
 	return 0;
 }
